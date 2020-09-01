@@ -1,7 +1,7 @@
 {
     "name": "绝世唐门阅读",
     "url": "jueshitangmen.info",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "https://www.jueshitangmen.info/search.html@post->searchtype=all&searchkey=${key}",
         "list": "div#sitembox > dl",
@@ -20,7 +20,7 @@
         "lastChapter": "div#info > p:nth-child(5) > a"
     },
     "catalog": {
-        "list": "div#list > dl",
+        "list": "div#list > dl > dd",
         "name": "dd > a",
         "chapter": "dd > a"
     },
